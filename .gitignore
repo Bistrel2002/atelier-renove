@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.env*
+.DS_Store
+
+# Sources brutes (photos 2K + vidéos) — non servies, régénérées via
+# `npm run assets` (scripts/process-assets.sh) vers public/. Gardées en
+# local uniquement pour ne pas alourdir le repo (~64 Mo).
+assets/
